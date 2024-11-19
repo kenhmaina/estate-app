@@ -5,10 +5,12 @@ import About from "./pages/utils/About";
 import Profile from "./pages/utils/Profile";
 import SignIn from "./pages/utils/SignIn";
 import SignOut from "./pages/utils/SignOut";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
-    <div>
+    <div className=" px-4 sm:px-[4vw] md:px-[6vw] lg:px-[9vw]">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
