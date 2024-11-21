@@ -42,7 +42,7 @@ const Navbar = () => {
       <nav className="gap-4 hidden md:flex">
         <NavLink to={"/home"}>Home</NavLink>
         <NavLink to={"/about"}>About</NavLink>
-        <NavLink to={"/sign-in"}>Sign in</NavLink>
+        <NavLink to={"/signin"}>Sign in</NavLink>
       </nav>
 
       {/** //opening side bar on mobile */}
@@ -67,7 +67,7 @@ const Navbar = () => {
             <NavLink
               onClick={setMenu}
               className=" hover:bg-gray-200 py-2 px-2 text-black font-semibold text-xl"
-              to={"/sign-in"}
+              to={"/signin"}
             >
               Sign in
             </NavLink>
