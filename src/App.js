@@ -4,7 +4,7 @@ import Home from "./pages/utils/Home";
 import About from "./pages/utils/About";
 import Profile from "./pages/utils/Profile";
 import SignIn from "./pages/utils/SignIn";
-import SignOut from "./pages/utils/SignOut";
+import SignUp from "./pages/utils/SignUp";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/sign-in" element={<SignIn />} />
-        <Route path="/sign-out" element={<SignOut />} />
+        <Route path="/signup" element={<SignUp />} />
       </Routes>
     </div>
   );
